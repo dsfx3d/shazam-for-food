@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "hello-world": {
+      "source": "98kb/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/hello-world/SKILL.md",
+      "computedHash": "03e4c2d3141fdc0b1d50bee70f2ddc723a22ccc2c9fe379d2029ae48d185d735"
+    },
+    "to-pitch": {
+      "source": "98kb/skills",
+      "sourceType": "github",
+      "skillPath": "skills/product/to-pitch/SKILL.md",
+      "computedHash": "405c81408389c7fdfdedfb92a5612cdd925acb3a23e37ac339b710de0297860a"
+    },
+    "to-vision": {
+      "source": "98kb/skills",
+      "sourceType": "github",
+      "skillPath": "skills/product/to-vision/SKILL.md",
+      "computedHash": "db056ac0a8700c92a04c8fddc907557928aed4eb41385067a6684f471187ae9f"
+    }
+  }
+}
