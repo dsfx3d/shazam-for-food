@@ -1,74 +1,87 @@
 # SeeFood
 
-**The Shazam for food.**
+Shazam. For food.
 
-Point your camera at anything edible. Know what it is.
+I make this app. It is very good app.
 
 ---
 
-## Why this repo exists
+## What it does
 
-This is a hypothetical product, taken seriously.
+You take picture of food. App tell you what food.
 
-The point is not the app. The point is to run [`98kb/skills`](https://github.com/98kb/skills)
-against a product that behaves like a real one — a vision that outruns its
-implementation, a backlog that argues with itself, issues that arrive half-specified,
-branches that need isolating, decisions that need recording before everyone forgets
-why they were made.
+That is it. That is whole app. Very simple. Everybody understand immediately, even
+stupid people.
 
-A toy repo exercises the happy path. A product with an unreasonable roadmap and a
-narrow shipped scope exercises everything else. That gap is the test fixture.
+## Why nobody else make this
 
-Everything below is written as if it were true. Treat it that way.
+Because they are slow.
+
+Everybody make app for music. Fine. Music is solved. Nobody make app for food, and
+food is bigger market than music. You listen to song maybe three time a day. You eat
+three time a day and also snack. I do the math already. Do not check my math.
 
 ## The vision
 
-Food is the last unlabeled surface in daily life. Every song has a fingerprint. Every
-product has a barcode. Every place has a pin. A plate of food has nothing — you either
-know what you are looking at or you ask the person who cooked it.
+- Take picture
+- Know food
+- Know ingredient
+- Know calorie
+- Know where to buy this food, and cheaper
+- Know every food you eat, forever, in one list
 
-SeeFood closes that gap. One capture, one answer:
+Every food in world, in the app. Chinese food. Italian food. Food with no name yet.
+I will name it.
 
-- **Identify** — what is this dish, in what cuisine, under what regional name
-- **Decompose** — ingredients, and what they were doing before they were on the plate
-- **Quantify** — calories, macros, allergens, in the portion actually in frame
-- **Locate** — where nearby this exists, and what it costs there
-- **Remember** — a personal history of everything you have eaten, queryable
+This is the Shazam for food. I already say this.
 
-The long arc: a food graph dense enough that a photograph resolves against it the way
-audio resolves against a music catalog. Instant. Boring. Assumed.
+## What ships today
 
-## Current release scope
+App identify hotdog.
 
-The classifier ships with two labels.
+If picture is hotdog, app say **hotdog**.
 
-| Input | Output |
-| --- | --- |
-| A hot dog | **Hot dog** |
-| Anything else in the known universe | **Not hot dog** |
+If picture is not hotdog, app say **not hotdog**.
 
-This is not a placeholder. It is in production, it is accurate, and it does exactly
-what it says. Recall on the hot dog class is exceptional. Pizza, sushi, a photograph of
-your own hand, and the surface of the moon all resolve correctly to *not hot dog*.
+## Is this a problem
 
-Coverage expansion is a roadmap concern. Correctness, today, is not.
+No.
+
+Pizza — not hotdog. Correct. Sushi — not hotdog. Correct. Your ugly sandwich —
+not hotdog. Correct. Your face — not hotdog. Also correct. The app is never wrong.
+Show me other food app that is never wrong. You cannot.
+
+Some people see the demo and they get very quiet and they say "so it only does
+hotdog." Yes. It only does hotdog. It does hotdog perfectly. Perfect is better
+than many.
+
+Also octopus is not hotdog. I check this personally.
 
 ## Roadmap
 
-- **Now** — hot dog / not hot dog, shipped
-- **Next** — a second label (candidate under evaluation)
-- **Later** — the vision above, in full
+1. Hotdog. Done. Shipped.
+2. Second food. I am deciding which one. Do not send suggestion.
+3. Everything else in the vision, above. Later.
 
-The distance between *Now* and *Later* is the interesting part of this repo. It is
-where the process gets stressed, and it is what we are actually measuring.
+Step 2 is the hard one. Step 3 is easy, it is just more of step 2.
 
-## Working agreements
+## About this repo
 
-Development follows the practices in `98kb/skills`:
+This is not real company. This is hypothetical company, but I run it like real one,
+because that is only way to find out where the process is bad.
 
-- Issues live in GitHub Issues and carry a triage label before anyone touches them
-- Source changes get an isolated worktree and a trunk branch off `main`
-- Domain terms and architectural decisions are written down when they are made,
-  not reconstructed later
+I use [`98kb/skills`](https://github.com/98kb/skills) for the process. Issue in the
+issue tracker with label. Branch off `main` in own worktree. Write down decision when
+you make it, not three month later when you forget and start argue.
 
-If a practice is awkward here, that is a finding about the practice. Record it.
+If the process is annoying here, that is the point. Write it down. Then I fix it.
+Or I do not fix it. I decide, it is my app.
+
+## Contributing
+
+You want to help. Okay.
+
+Read the issue first. Do not send pull request for feature that is not in roadmap.
+Do not send pull request that add second food before I decide which food.
+
+Do not tell me the app should do more food. I know. It is in the vision. Scroll up.
