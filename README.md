@@ -83,6 +83,19 @@ just time.
 People say this is too much process for one person with no app. Those people also have
 no app.
 
+## Team
+
+| Name | Role |
+| --- | --- |
+| Jian-Yang | Everything |
+
+That is whole team. It is not short list. It is correct list.
+
+Idea — me. Plan — me. Model — me. App — me. Picture of hotdog — me, I take them myself.
+This README — also me, you are reading it.
+
+If you see other name in this repo, it is mistake. Tell me and I remove it.
+
 ## What I need
 
 - More picture of food that is not hotdog
